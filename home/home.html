@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1 id="username"></h1>
+    <h3>dont see this</h3>
+    <script>
+        document.getElementById('username').innerHTML = localStorage.getItem("username");
+        let username = localStorage.getItem("username");
+        let password = localStorage.getItem("password");
+        if(username == null && password == null){
+             document.body.style.display='none';
+        }else{
+            document.body.style.display='block';
+        }
+    </script>
+</body>
+</html>
