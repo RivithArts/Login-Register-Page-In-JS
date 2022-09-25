@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    background-color: bisque;
+
+}
+
+#sec-p{
+margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    flex-direction: column;
+    background-position: center;
+    align-items: center;
+    background-color: white;
+    padding: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    margin: 20px;
+    padding: 8px;
+}
+
+button{
+    padding: 10px 14px;
+    border-radius: 25px;
+    background-color: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#new-p-submit{
+    display: none;
+}
